@@ -3,9 +3,9 @@ using namespace std;
 
 int main()
 {
-    int my = 45;
-    my = 201;
-    cout << my <<endl;
-    cout << my <<endl;
+    int num = 45;
+    cout << num <<endl;
+    num = 201;
+    cout << num <<endl;
     return 0;
 }
