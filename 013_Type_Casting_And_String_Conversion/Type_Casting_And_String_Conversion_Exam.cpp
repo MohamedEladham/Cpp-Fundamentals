@@ -2,7 +2,6 @@
 #include <string>
 using namespace std;
 
-
 int main()
 {
     int Num1;
@@ -16,7 +15,6 @@ int main()
 
     // Explicit Conversion
     Num1 = (int)Num2;
-
 
     // Convert string To int and float and double
     string str = "123.456";
@@ -36,7 +34,6 @@ int main()
     double strTodouble = stod(str);
     cout << strTodouble << endl;
     cout << strTodouble * .002 << endl;
-
 
     // Convert int To string
     int Num3 = 123;
@@ -67,7 +64,6 @@ int main()
     string str4;
     str4 = Num5;
     cout << str4 << endl;
-
 
     // Homework1 1
     str4 = "43.22";

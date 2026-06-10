@@ -39,7 +39,6 @@ void F_EnterThreeNumbers(float& F1, float& F2, float& F3)
     cin >> F3;
 }
 
-
 int MySumFunction(int Num1, int Num2)
 {
     return Num1 + Num2;
@@ -57,6 +56,7 @@ void ReadName1(string& Name)
     cout << "Please Enter Your Name: ";
     getline(cin, Name);
 }
+
 void PrintMyName2(string Name)
 {
     cout << "The Name Are: " << Name << endl;
@@ -69,6 +69,7 @@ void PrintResult(int num1, int num2)
     cout << "First Number A: " << num1 << endl;
     cout << "Secound Number B: " << num2 << endl;
 }
+
 void Swapping(int num1, int num2)
 {
     int swap = 0;
@@ -94,6 +95,7 @@ float CalcRectangleAreaThroughDiagonal(float A, float D)
     float Area = A * sqrt(pow(D, 2) - pow(A, 2));
     return Area;
 }
+
 void PrintResult(float Area)
 {
     cout << "The Area = " << Area << endl;
@@ -225,7 +227,6 @@ void Convert_Second_To_Days_Hours_Minutes_Seconds(float Seconds)
 
     float NumberOfSeconds = floor(Remender1);
 
-
     cout << "Number Of Days = " << NumberOfDays << endl;
     cout << "Number Of Hours = " << NumberOfHours << endl;
     cout << "Number Of Minutes = " << NumberOfMinutes << endl;
@@ -233,7 +234,6 @@ void Convert_Second_To_Days_Hours_Minutes_Seconds(float Seconds)
 
     cout << "Total Seconds Per Days And Hours And Minutes And Seconds = " <<
         NumberOfDays << ':' << NumberOfHours << ':' << NumberOfMinutes << ':' << NumberOfSeconds << endl;
-
 }
 
 int main()
@@ -271,7 +271,6 @@ int main()
     cout << "\n\nCircle Area\n";
     PrintResult(CalcCircleArea(I_EnterOneNumber()));
 
-
     cout << "\n-----------------------------------------\n";
 
     cout << "\n\nCalc Circle Area Through Diameter\n";
@@ -308,9 +307,7 @@ int main()
     cin >> Power;
     cout << "Power Of Number Is = " << Power_Of_Number(Num1, Power) << endl;
 
-
     cout << "\n-----------------------------------------\n";
-
 
     cout << "\n\nTotal Number Of Secounds\n";
     float Days, Hours, Minuts, Secounds;

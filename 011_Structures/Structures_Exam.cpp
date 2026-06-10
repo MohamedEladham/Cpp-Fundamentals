@@ -39,9 +39,7 @@ struct St_CutomerInformations
     St_CutomerPhones CutomerPhones;
     St_CutomerAccounts CutomerAccounts;
     St_CutomerAddress CutomerAddress;
-
 };
-
 
 int main()
 {
@@ -63,7 +61,6 @@ int main()
     CustmoerInformation1.CutomerAddress.BuildingNumber = "Building 512";
     CustmoerInformation1.MonthlySalary = 5000;
 
-
     cout << "\n\n****************************\n";
     cout << "Name: " << CustmoerInformation1.FullName << "\n";
     cout << "Age: " << CustmoerInformation1.Age << "\n";
@@ -81,7 +78,6 @@ int main()
     cout << "Building Number: " << CustmoerInformation1.CutomerAddress.BuildingNumber << "\n";
     cout << "Monthly Salary: " << CustmoerInformation1.MonthlySalary << "\n";
     cout << "****************************\n\n";
-
 
     return 0;
 }

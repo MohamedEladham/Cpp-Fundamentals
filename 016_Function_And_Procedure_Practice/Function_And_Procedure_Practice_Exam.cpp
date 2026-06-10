@@ -1,7 +1,6 @@
 #include <iostream>
 using namespace std;
 
-
 void MyFunction1()
 {
     cout << "This Is My First Procedure, It Got Executed :-) \n";
@@ -31,7 +30,6 @@ float MyFunction4()
 }
 
 // HomeWork
-
 void TakeTwoNumbers(float& Num1, float& Num2)
 {
     cout << "Please Enter First Number: ";

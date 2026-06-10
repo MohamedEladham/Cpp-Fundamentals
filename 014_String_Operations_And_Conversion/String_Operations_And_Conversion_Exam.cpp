@@ -18,14 +18,11 @@ int main()
     Sum = stoi(S1) + stoi(S2);
     cout << Sum << endl;                 // Will Print 30
 
-
     // Not Valid Poeration
     string S3 = "AB", S4 = "CD";
     int sum1;
     sum1 = stoi(S3) + stoi(S4);
     cout << sum1 << endl;             // Error   
-
-
 
     // Homework 
     string name, num1, num2;
@@ -42,7 +39,6 @@ int main()
     cin >> num1;
     cout << "Please Enter Number 2: ";
     cin >> num2;
-
 
     cout << "Comunicating Num1 And Num2: " << num1 + num2 << endl;
     

@@ -6,7 +6,6 @@ void MyFunction(int& Num1)
 {
     // Modifying the original variable (not a copy)
     Num1 = 16000;
-
     cout << "Coming From My Function " << Num1 << endl;
 }
 
