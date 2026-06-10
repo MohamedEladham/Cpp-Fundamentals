@@ -5,7 +5,7 @@ int main()
     string Name = "Mohamed Eladham";
     short Age = 27;
     string City = "Mansoura" , Country = "Egypt";
-    float MonthlySalary = 5000;
+    float MonthlySalary = 6000;
     float YearlySalary = MonthlySalary * 12;
     char Gender = 'M';
     bool Married = false;
