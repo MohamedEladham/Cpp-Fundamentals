@@ -1,3 +1,10 @@
+Cpp-Fundamentals
+
+A repository documenting my C++ learning journey,
+covering core programming concepts, hands-on exercises,
+and practical implementations.
+
+
 ## Topics Covered
 
 ### Core Programming Fundamentals
