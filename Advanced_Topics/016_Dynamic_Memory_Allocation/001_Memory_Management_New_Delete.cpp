@@ -3,9 +3,7 @@ using namespace std;
 
 int main()
 {
-    // =========================
     // Dynamic int allocation
-    // =========================
     int* ptrI = new int;
 
     *ptrI = 10;
@@ -13,14 +11,13 @@ int main()
     cout << "Int Value : " << *ptrI << endl;
     cout << "Address   : " << ptrI << endl;
 
+    // Release Memory
     delete ptrI;
     ptrI = nullptr;
 
     cout << "\n--------------------\n";
 
-    // =========================
     // Dynamic float allocation
-    // =========================
     float* ptrF = new float;
 
     *ptrF = 22.66f;
@@ -28,6 +25,7 @@ int main()
     cout << "Float Value : " << *ptrF << endl;
     cout << "Address     : " << ptrF << endl;
 
+    // Release Memory
     delete ptrF;
     ptrF = nullptr;
 
