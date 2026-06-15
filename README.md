@@ -1,6 +1,6 @@
-Cpp-Fundamentals
+# Cpp-Fundamentals
 
-A repository documenting my C++ learning journey,
+## A repository documenting my C++ learning journey,
 covering core programming concepts, hands-on exercises,
 and practical implementations.
 
